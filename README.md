@@ -1,9 +1,17 @@
 # ECSA-2022-replication-package
 
+
 ## Abstract
 This repository contains the code and demos to support our ECSA-2022 submission "From informal architecture diagrams to flexible blended models".
 
 In the paper, we show how we can make more use of informal diagrams by considering them, partly, as models. We show how to migrate from just informal diagrams to flexible models, by providing a textual grammar for the elements of the diagram that shall be considered model elements. Moreover, we show how we can continue the blended use of the pre-existing informal diagram and the newly derived textual model, by means of two unidirectional transformations that synchronize the representations. Crucially, we preserve the layout of the informal diagrams as well as all the "non-modeling" elements in it.
+
+The figure below provides an overview of the approach
+![modelingwithdrawio drawio](https://user-images.githubusercontent.com/4225829/167256190-05a65831-53dc-4f1f-844b-cc7fc2afd35e.png)
+
+
+## Demo videos
+To better illustrate the approach and its implementation, we provide three demo video's that show the synchronization and several supported features. __Demo3__ (7 mins) contains the most functionality.
 
 
 ## Contents
