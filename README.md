@@ -11,12 +11,20 @@ The figure below provides an overview of the approach
 
 
 ## Demo videos
-To better illustrate the approach and its implementation, we provide three demo video's that show the synchronization and several supported features. __Demo3__ (7 mins) contains the most functionality.
+To better illustrate the approach and its implementation, we provide three demo video's that show the synchronization and several supported features. __Demo3__ (7 mins) contains the most functionality:
 
 
-## Contents
+https://user-images.githubusercontent.com/4225829/167257353-da1c8fae-2779-4313-bad7-704cb4b1908b.mp4
+
+
+
+## Repository contents
 This repository shows the following three demo scenarios. For each of them we provide code and a demo video in this repository.
 
   1. arch-demo-industry-eval: This folder contains the supporting code for the demo with a simple architecture diagram, as used for the industrial evaluation in the paper.
   2. state-machine-blended-demo: This folder contains the supporting code for the demo with a state machine diagram, to show that the approach can handle connectors/edges too, in addition to boxes/nodes.
   3. arch-demo: This folder contains the supporting code for the demo with an extended architecture diagram, as described in the paper. This demo shows that the approach can in addition to the previous two demo's, also handle "containments" of elements in other elements.
+
+
+## Python
+I'm using Python 3.7 and am using [TextX](https://github.com/textX/textX).
