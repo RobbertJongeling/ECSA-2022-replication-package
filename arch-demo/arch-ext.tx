@@ -1,0 +1,24 @@
+Architecture:
+    ('components' '{' components+=Component ( "," components+=Component)* '}' )
+    ('dependencies' '{' dependencies+=Dependency ( "," dependencies+=Dependency)* '}' )
+    ('layers' '{' layers+=Layer ( "," layers+=Layer)* '}' )*
+;
+
+Component:
+    'component' name=ID
+    ('inlayers' '{' layers+=[Layer] ( "," layers+=[Layer])* '}' )*
+;
+
+Dependency:
+	('from' fromcomp=[Component])
+	('to' tocomp=[Component])
+;
+
+Layer:
+    'layer' name=ID
+;
+
+//lines starting with # are comments
+Comment:
+    /\#.*$/
+;
