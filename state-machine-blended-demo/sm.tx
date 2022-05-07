@@ -1,0 +1,33 @@
+StateMachine:
+	'InitialState' initialstate = InitialState
+    'FinalState' finalstate = FinalState
+	('IntermediateStates' '{' states+=State ( "," states+=State)* '}' )*
+	'Transitions' '{' transitions+=Transition ( "," transitions+=Transition)* '}'
+	;
+
+InitialState:
+	name = ID
+;
+
+FinalState:
+	name = ID
+;
+
+State:
+	name = ID
+;
+
+Transition:
+	name = ID
+	'Condition' condition = STRING
+	'Action' action = STRING
+	('EnterState' enterstate=[State])?
+	('InitialStateTransition' initialstatetransition=[InitialState])?
+	('ExitState' exitstate=[State])?
+	('FinalStateTransition' finalstatetransition=[FinalState])?
+;
+
+//lines starting with # are comments
+Comment:
+    /\#.*$/
+;
