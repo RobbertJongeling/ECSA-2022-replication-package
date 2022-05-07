@@ -1,0 +1,12 @@
+Architecture:
+    components*=Component
+;
+
+Component:
+    'component' name=ID
+;
+
+//lines starting with # are comments
+Comment:
+    /\#.*$/
+;
