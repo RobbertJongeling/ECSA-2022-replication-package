@@ -2,7 +2,6 @@ import json
 import sys
 import os
 from DrawIO import *
-from Helpers import *
 
 
 class Dependency(object):

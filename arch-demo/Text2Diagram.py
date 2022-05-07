@@ -115,7 +115,6 @@ def create_graphical_model(architecture, all_lines_in_textual_file, legend2xml, 
                 replacement_layer = etree.tostring(replacement_layer).decode('utf-8')
                 new_xml_nodes.append(replacement_layer)
 
-
     if architecture.components:
         # we want to exclude the DSL keyword "components {" from this.
         # TODO change to rely on line number of "components {" based on parsed model,
@@ -136,6 +135,7 @@ def create_graphical_model(architecture, all_lines_in_textual_file, legend2xml, 
 
             # write graphical output
             if element_to_xml_map and component.name in element_to_xml_map["components"]:
+                # TODO only write existing if "inlayers" didn't change
                 new_xml_nodes.append(element_to_xml_map["components"][component.name])
             # if new, then we have to create it
             elif legend2xml and "component" in legend2xml:
