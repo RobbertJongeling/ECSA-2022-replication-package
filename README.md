@@ -14,14 +14,7 @@ The figure below provides an overview of the approach
 ## Demo videos
 To better illustrate the approach and its implementation, we provide three demo video's that show the synchronization and several supported features. __Demo3__ (7 mins) contains the most functionality:
 
-
 https://user-images.githubusercontent.com/4225829/167257612-6d099d38-a834-4f76-af97-6bff8af958c3.mp4
-
-### Download links for demo videos
-  1. [Download Demo 1](https://github.com/RobbertJongeling/ECSA-2022-replication-package/raw/main/demo1-arch-demo-industry-eval.mp4)
-  2. [Download Demo 2](https://github.com/RobbertJongeling/ECSA-2022-replication-package/raw/main/demo2-state-machine-blended.mp4)
-  3. [Download Demo 3](https://github.com/RobbertJongeling/ECSA-2022-replication-package/raw/main/demo3-arch-demo-extended.mp4)
-
 
 ## Repository contents
 This repository shows the following three demo scenarios. For each of them we provide code and a demo video in this repository.
