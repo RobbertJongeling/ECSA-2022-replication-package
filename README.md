@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/4225829/167257612-6d099d38-a834-4f76-a
 ### Download links for demo videos
   1. [Download Demo 1](https://github.com/RobbertJongeling/ECSA-2022-replication-package/raw/main/demo1-arch-demo-industry-eval.mp4)
   2. [Download Demo 2](https://github.com/RobbertJongeling/ECSA-2022-replication-package/raw/main/demo2-state-machine-blended.mp4)
-  3. [Download Demo 2](https://github.com/RobbertJongeling/ECSA-2022-replication-package/raw/main/demo3-arch-demo-extended.mp4)
+  3. [Download Demo 3](https://github.com/RobbertJongeling/ECSA-2022-replication-package/raw/main/demo3-arch-demo-extended.mp4)
 
 
 ## Repository contents
