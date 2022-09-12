@@ -1,7 +1,12 @@
 # ECSA-2022-replication-package
 
 
-## Abstract
+## From informal architecture diagrams to flexible blended models
+**Abstract.** For the early design and communication of software systems, architects commonly use informal diagrams. Due to their notational freedom and effectiveness for communication, informal diagrams are often preferred over models with a fixed syntax and semantics as defined by a modeling language. However, precisely because of this lack of established semantics, informal diagrams are of limited use in later development stages for analysis tasks such as consistency checking or change impact analysis. In this paper, we present an approach to reconciling informal diagramming and modeling such that architects can benefit from analysis based on the informal diagrams they are already creating. Our approach supports migrating from existing informal architecture diagrams to flexible models, i.e., partially treating diagrams as models while maintaining the freedom of free-form drawing. Moreover, to enhance the ease of interacting with the flexible models, we provide support for their blended textual and graphical editing. We validate our approach in a lab setting and perform an evaluative case study in an industrial setting. We show how the approach allows architects to continue informal diagramming, while also benefiting from flexible models for consistency checking between the intended architecture and the implementation
+
+[link to paper](http://www.es.mdh.se/publications/6481-From_informal_architecture_diagrams_to_flexible_blended_models) 
+
+## Repository contents
 This repository contains the code and demos to support our ECSA-2022 submission "From informal architecture diagrams to flexible blended models".
 
 In the paper, we show how we can make more use of informal diagrams by considering them, partly, as models. We show how to migrate from just informal diagrams to flexible models, by providing a textual grammar for the elements of the diagram that shall be considered model elements. Moreover, we show how we can continue the blended use of the pre-existing informal diagram and the newly derived textual model, by means of two unidirectional transformations that synchronize the representations. Crucially, we preserve the layout of the informal diagrams as well as all the "non-modeling" elements in it.
