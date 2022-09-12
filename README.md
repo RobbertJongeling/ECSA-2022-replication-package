@@ -21,7 +21,7 @@ To better illustrate the approach and its implementation, we provide three demo 
 
 https://user-images.githubusercontent.com/4225829/167257612-6d099d38-a834-4f76-af97-6bff8af958c3.mp4
 
-## Repository contents
+## Demo scenarios
 This repository shows the following three demo scenarios. For each of them we provide code and a demo video in this repository.
 
   1. arch-demo-industry-eval: This folder contains the supporting code for the demo with a simple architecture diagram, as used for the industrial evaluation in the paper.
