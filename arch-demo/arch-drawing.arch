@@ -1,0 +1,261 @@
+components {
+component NewerComponent
+    inlayers {
+        GreenLayer5
+    },
+component NewComponent
+	inlayers {
+		NewLayer
+	},
+component Component1
+	inlayers {
+		TopLayer1
+	},
+component Component4
+	inlayers {
+		TopLayer1
+	},
+component Component5
+	inlayers {
+		TopLayer1
+	},
+component Component6
+	inlayers {
+		TopLayer1
+	},
+component Component7
+	inlayers {
+		TopLayer1
+	},
+component Component8
+	inlayers {
+		TopLayer1
+	},
+component Component9
+	inlayers {
+		TopLayer1
+	},
+component Component11
+	inlayers {
+		TopLayer1
+	},
+component Component10
+	inlayers {
+		TopLayer1
+	},
+component Component13
+	inlayers {
+		TopLayer1
+	},
+component Component12
+	inlayers {
+		TopLayer1
+	},
+component Component15
+	inlayers {
+		TopLayer1
+	},
+component Component16
+	inlayers {
+		TopLayer1
+	},
+component Component17
+	inlayers {
+		TopLayer2
+	},
+component Component18
+	inlayers {
+		TopLayer2
+	},
+component Component19
+	inlayers {
+		TopLayer2
+	},
+component MiddleComponent
+	inlayers {
+		MiddleLayer
+	},
+component Component2
+	inlayers {
+		BlueLayer1
+	},
+component Component3
+	inlayers {
+		BlueLayer1
+	},
+component Widecomponent
+	inlayers {
+		GreenLayer5,
+		LowLayer1,
+		LowLayer2,
+		LowLayer3,
+		LowLayer4
+	},
+component CommonOpenSourceComponent
+	inlayers {
+		BlueLayer1
+	},
+component Component20
+	inlayers {
+		BlueLayer1
+	},
+component Component21
+	inlayers {
+		BlueLayer1
+	},
+component Component22
+	inlayers {
+		BlueLayer1
+	},
+component Component23
+	inlayers {
+		BlueLayer1
+	},
+component Component24
+	inlayers {
+		BlueLayer1
+	},
+component Component25
+	inlayers {
+		BlueLayer1
+	},
+component Component27
+	inlayers {
+		BlueLayer1,
+		GreenLayer1
+	},
+component Component26
+	inlayers {
+		BlueLayer1,
+		BlueLayer2
+	},
+component Component28
+	inlayers {
+		LowLayer1
+	},
+component Component29
+	inlayers {
+		LowLayer1
+	},
+component Component32
+	inlayers {
+		GreenLayer2,
+		GreenLayer3,
+		LowLayer2,
+		LowLayer3
+	},
+component Component37
+	inlayers {
+		LowLayer3
+	},
+component Component42
+	inlayers {
+		LowLayer3
+	},
+component Component41
+	inlayers {
+		GreenLayer3
+	},
+component Component36
+	inlayers {
+		GreenLayer3
+	},
+component Component49
+	inlayers {
+		LowLayer4
+	},
+component Component50
+	inlayers {
+		LowLayer4
+	},
+component Component31
+	inlayers {
+		BlueLayer2
+	},
+component Component30
+	inlayers {
+		BlueLayer2
+	},
+component Component33
+	inlayers {
+		BlueLayer3
+	},
+component Component34
+	inlayers {
+		BlueLayer3
+	},
+component Component35
+	inlayers {
+		BlueLayer3
+	},
+component Component39
+	inlayers {
+		BlueLayer3
+	},
+component Component38
+	inlayers {
+		BlueLayer3
+	},
+component Component40
+	inlayers {
+		BlueLayer3
+	},
+component Component46
+	inlayers {
+		GreenLayer4
+	},
+component Component47
+	inlayers {
+		GreenLayer4
+	},
+component Component48
+	inlayers {
+		GreenLayer4
+	},
+component Component45
+	inlayers {
+		BlueLayer4
+	},
+component Component43
+	inlayers {
+		BlueLayer4
+	},
+component Component44
+	inlayers {
+		BlueLayer4
+	}
+}
+
+dependencies {
+	from Component17 to Component4,
+	from Component16 to Component15,
+	from Component42 to Component37,
+	from Component38 to Component27,
+	from Component6 to Component26,
+	from Component19 to Component46
+
+}
+
+layers {
+	layer TopLayer1,
+	layer SideLayer,
+	layer TopLayer2,
+	layer MiddleLayer,
+	layer LowestLayer,
+	layer BlueLayer1,
+	layer BlueLayer2,
+	layer BlueLayer3,
+	layer BlueLayer4,
+	layer BlueLayer5,
+	layer GreenLayer4,
+	layer GreenLayer1,
+	layer GreenLayer2,
+	layer GreenLayer3,
+	layer GreenLayer5,
+	layer LowLayer1,
+	layer LowLayer2,
+	layer LowLayer3,
+	layer LowLayer4,
+	layer NewLayer
+
+}
